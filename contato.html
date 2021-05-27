@@ -22,10 +22,6 @@
             border-radius: 50%;
         }
 
-        .icones {
-            padding-left: 5px;
-        }
-
         .titulosBrancos {
             text-decoration: underline;
             text-underline-position: under;
@@ -33,15 +29,6 @@
             text-transform: uppercase;
             font-weight: 700;
             color: white;
-        }
-
-        .titulosPretos {
-            text-decoration: underline;
-            text-underline-position: under;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #000000
         }
 
         .paragrafoBrancos {
@@ -53,14 +40,6 @@
             margin-bottom: 0px;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        p {
-            color: black !important;
-        }
-
         .corPrimaria {
             background-color: #5095E9;
         }
@@ -68,16 +47,12 @@
         .corSecundaria{
             background-color: white;
         }
-
-        .itemMenu {
-            color: white;
-        }
     </style>
 </head>
 
     <body>
         <nav class="navbar navbar-expand-md navbar-light" style="background-color:#000000">
-            <a class="navbar-brand" href="#" style=color:white>Jonathan Gabriel Brito</a>
+            <a class="navbar-brand" href="sobre-mim.html" style=color:white>Jonathan Gabriel Brito</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -89,13 +64,15 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li>
-                        <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                        <a href="sobre-mim.html" class="nav-link" style=color:white>Sobre mim</a>
                     </li>
+
                     <li>
-                        <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
+                        <a href="curriculo.html" class="nav-link" style=color:white>Curriculo</a>
                     </li>
+                    
                     <li>
-                        <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                        <a href="contato.html" class="nav-link" style=color:white>Contato</a>
                     </li>
                 </ul>
             </div>
@@ -116,55 +93,26 @@
                         class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/jonis_gamer/"><i style="color:white" class="fab fa-instagram"></i></a>
             </div>
-        </section>
-
-        <section class="jumbotron text-center corPrimaria" id="sobre-mim">
-            <div class="container">
-                <h2 class="jumbotron-heading titulosBrancos">Formação</h2>
-                <p class="lead paragrafoBrancos">Formado em Ciência da computação em 2021, busco sempre desenvolver meus conhecidos com leitura semanal em diversos meios de leituras, e busco ampliar fazendo cursos complementares onde agregue valor ao que busco em saber..</p>
-            </div>
-        </section>
-
-        <section Id="depoimentos">
-            <div class="album py-5 bg-light">
-                <div class="container">
-                    <h2 class="text-center jumbotron-heading titulosPretos">Depoimentos</h2>
-                    <blockquote class="blockquote text-center">
-                        <p class="mb-0">Uma pessoa simples, simpática, sempre de bom humor e de um companherismos sem
-                            tamanho.</p>
-                        <footer class="blockquote-footer">CEO<cite title="Source Title"> Imagination S/A</cite>
-                        </footer>
-                    </blockquote>
-                    <blockquote class="blockquote text-center">
-                        <p class="mb-0">Gosta de ajudar o cliente, sempre educado e pontual.</p>
-                        <footer class="blockquote-footer">CEO <cite title="Source Title">M&Z Sistemas</cite>
-                        </footer>
-                    </blockquote>
+            
+            <section Id="contato" class="corSecundaria">
+                <div class="corSecundaria">
+                    <div class="container-fluid">
+                        <h3 style="padding-top:90px;" class="text-center titulosPretos">Entre em contato por email:</h3>
+                        <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+                                href="https://outlook.live.com/owa/">exejonathanbrito@outlook.com</a></h4>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="jumbotron text-center corPrimaria" id="sobre-mim">
-            <div class="container">
-                <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
-                <p class="lead paragrafoBrancos">Prazer sou conhecido por Jonis, sempre disposto a dar o melhor de mim para desenvolver meus conhecimentos e de sanar minhas dificuldades que posso ter. Gosto de ajudar quem está com problemas pois acredito que o conhecido é para ser compartilhado.</p>
-            </div>
-        </section>
-
-        <section Id="contato" class="corSecundaria">
-            <div class="corSecundaria">
-                <div class="container-fluid">
-                    <h3 style="padding-top:90px;" class="text-center titulosPretos">Entre em contato</h3>
-                    <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
-                            href="https://outlook.live.com/owa/">exejonathanbrito@outlook.com</a></h4>
+              <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+            
+                <div class="container p-1"></div>
+                
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2021 Copyright:
+                  <a class="text-white" href="https://jonisgamer.github.io/my_portfolio/">Jonis Production®</a>
                 </div>
-            </div>
-        </section>
-
-        <footer class="text-center" style="background-color:#000000;padding:0px; margin:0px">
-            <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright Jonis Production®
-            </p>
-        </footer>
+              </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
